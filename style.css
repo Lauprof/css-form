@@ -1,0 +1,57 @@
+
+body{
+background-color:green;
+
+}
+
+
+div h1{
+
+text-align:center;
+margin-top:20px;
+font-family:Courier new,monospace;
+text-shadow:2px 2px red;
+
+}
+
+div p{
+
+text-align:center;
+margin-top:20px;
+font-family:Courier new,monospace;
+font-size:17px;
+color:white;
+
+
+}
+
+
+label{
+text-align:center;
+font-weight:bold;
+color:blue;
+font-family:Courier new,monospace;
+}
+form{
+
+background-color:white;
+padding:10px;
+text-align:center;
+width:50%;
+margin-top:140px;
+border-style:hidden;
+border-radius:12px;
+margin-left:120px;
+
+}
+input{
+
+color:green;
+font-size:18px;
+//border-style:hidden;
+
+}
+input:focus {
+background-color:rgb(0,0,0,0.1);
+
+}
