@@ -1,6 +1,6 @@
 
 body{
-background-color:green;
+background-image:linear-gradient(to bottom right ,purple,grey,green,orange);
 
 }
 
@@ -27,6 +27,13 @@ color:white;
 
 
 label{
+border-style:none;
+border-color:blue;
+border-width:70%;
+padding-left:50px;
+background-color:orange;
+border-radius:13px;
+padding-right:50px;
 text-align:center;
 font-weight:bold;
 color:blue;
@@ -35,9 +42,9 @@ font-family:Courier new,monospace;
 form{
 
 background-color:white;
-padding:10px;
+padding:6px;
 text-align:center;
-width:70%;
+width:50%;
 margin-top:140px;
 border-style:hidden;
 border-radius:12px;
@@ -48,10 +55,17 @@ input{
 
 color:green;
 font-size:18px;
-//border-style:hidden;
+border-style:none;
+border-color:grey;
+background-color:teal;
+border-radius:4px;
 
 }
 input:focus {
 background-color:rgb(0,0,0,0.1);
+
+}
+.submit{
+background-color:violet;
 
 }
